@@ -1,0 +1,11 @@
+.git
+__pycache__
+output
+outputs
+*.pth
+*output*
+.github/
+.idea/
+assets/
+*.png
+*.jpg

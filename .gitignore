@@ -1,0 +1,116 @@
+#############################################
+#                Maven / Java               #
+#############################################
+
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+/.mvn/
+mvnw
+mvnw.cmd
+
+# 忽略所有模块下的 target
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Spring / Maven
+*.class
+*.jar
+*.war
+*.ear
+
+#############################################
+#              Spring Tools Suite           #
+#############################################
+
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+#############################################
+#                IntelliJ IDEA              #
+#############################################
+
+.idea/
+*.iws
+*.iml
+*.ipr
+
+#############################################
+#                VS Code                    #
+#############################################
+
+.vscode/
+
+#############################################
+#                Node / Vue                 #
+#############################################
+
+# 全局 node_modules
+node_modules/
+
+# 构建产物
+dist/
+**/dist/
+.yarn/
+.pnpm-store/
+
+#############################################
+#                Python / Flask             #
+#############################################
+
+# 编译缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Flask（watermark_flask 专用）
+/watermark_flask/checkpoints/
+/watermark_flask/exp/
+/watermark_flask/outputs/
+/watermark_flask/*.log
+/watermark_flask/static/wam/
+/watermark_flask/static/ori/
+
+#############################################
+#               资源目录忽略                #
+#############################################
+
+# 忽略 Java resources 内的所有内容
+/src/main/resources/*
+
+# 但保留 resources 目录结构（否则目录会消失）
+!/src/main/resources/
+
+#############################################
+#            系统文件 / 临时文件            #
+#############################################
+
+*.log
+*.tmp
+/tmp/
+.DS_Store
+Thumbs.db
+
+#############################################
+#             项目级额外忽略项              #
+#############################################
+
+/chat-memory/
+build/
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# NetBeans 兼容（保留构建白名单）
+!**/src/main/**/build/
+!**/src/test/**/build/

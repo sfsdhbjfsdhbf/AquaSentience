@@ -1,0 +1,59 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://pgm-bp10u41eimo8c4c60o.pg.rds.aliyuncs.com:5432/ywyaiagent
+    username: alex123
+    password: Kongyuang123
+  application:
+    name:cxkagent
+  ai:
+    mcp:
+      client:
+        stdio:
+          servers-configuration: classpath:mcp-servers.json
+#        sse:
+#          connections:
+#            server1:
+#              url: http://localhost:8127
+
+    dashscope:
+      api-key: sk-6a85a52f5e7e43c7ad35a30ccc0b2ffd
+      chat:
+        options:
+          model: qwen3-235b-a22b-thinking-2507
+          max-output-tokens: 200
+
+    vectorstore:
+      enabled: false
+      pgvector:
+        index-type: HNSW
+        dimensions: 1536
+        distance-type: COSINE_DISTANCE
+        max-document-batch-size: 10000
+search-api:
+  api-key: uiZM5GZTJVGNeVSj4HtsvFZV
+
+
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+
+
+
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    - group: 'default'
+      paths-to-match: '/**'
+      packages-to-scan: com.yupi.yuaiagent.controller
+
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn

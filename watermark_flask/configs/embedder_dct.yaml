@@ -1,0 +1,17 @@
+model: DCTEncoder
+
+DCTEncoder:
+  msg_processor:
+    nbits: 32
+    hidden_size: 64     # nbits * 2
+    msg_processor_type: 'binary+concat'
+  encoder:
+    image_size: 32 # 此处为dct分块之后的大小
+    in_channels: 128 # hidden_size + 64
+    depth: 4
+    heads: 6
+    share_kv: True #  是否采用linformer注意力
+    length: 64  # 和hidden_size一样
+
+
+

@@ -1,0 +1,9 @@
+spring:
+  ai:
+    mcp:
+      server:
+        name: webmvc-mcp-server
+        version: 1.0.0
+        type: SYNC
+        sse-message-endpoint: /mcp/message
+        sse-endpoint: /sse

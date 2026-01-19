@@ -1,0 +1,17 @@
+model: DCTDecoder
+
+DCTDecoder:
+  img_decoder:
+    image_size: 32 # 此处为dct分块之后的大小
+    in_channels: 64 # 64
+    depth: 4
+    heads: 6
+    share_kv: True #  是否采用linformer注意力
+  pixel_decoder:
+    embed_dim: 64  # = encoder.out_chans
+    nbits: 32
+    sigmoid_output: False
+
+
+
+
