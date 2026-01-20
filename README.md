@@ -26,37 +26,18 @@ AquaSentience 是一款专为图像内容安全设计的智能系统，集成了
 辅助补充水印专家知识及资源支持多轮对话、记忆持久化、RAG 知识库检索等能力，并且基于 ReAct 模式，能够自主思考并调用工具来完成复杂任务，比如利用网页搜索、资源下载等。
 
 
-这是一套以 **AI 开发实战** 为核心的项目教程，将通过开发 **AI 恋爱大师应用 + 拥有自主规划能力的超级智能体**，带大家掌握新时代程序员必知必会的 AI 核心概念、AI 实用工具、AI 编程技术、AI 框架原理、AI 调优技巧，大幅增加求职的竞争力！
 
-- 主流 AI 应用平台的使用
-- AI 大模型的 4 种接入方式
-- AI 开发框架（Spring AI + LangChain4j）
-- AI 大模型本地部署
-- Prompt 工程和优化技巧
-- Spring AI 核心特性：如自定义 Advisor、对话记忆、结构化输出
-- RAG 知识库实战、原理和调优技巧
-- PgVector 向量数据库 + 云数据库服务
-- Tool Calling 工具调用实战及原理
-- MCP 模型上下文协议和服务开发
-- AI 智能体 Manus 原理和自主开发
-- AI 服务化和 Serverless 部署上线
-- 各种新概念：如多模态、智能体工作流、A2A 协议、大模型评估等
 
-举个例子，RAG 核心特性实战及全链路调优：
+RAG 核心特性实战及全链路调优：
 
 ![](https://pic.yupi.icu/1/1746250760306-3b545556-59df-43a9-b843-b73ec9b5a867.png)
 
-项目还有其他优势：
-
-- AI 云平台和编程双端实战，不仅会用 AI 服务，还会自己写！
-- 基于官方文档讲解最新的 AI 技术，细致入微，手撕文档和源码！
-- 分享大量 AI 扩展知识和编程技巧，掌握最佳实践！
 
 
 
-## 用哪些技术？
-
-项目以 Spring AI 开发框架实战为核心，涉及到多种主流 AI 客户端和工具库的运用。
+## 技术栈
+基于 Spring Boot 3 +⁠ Spring AI + RAG + Tool Calling + M‌CP + Flask + Pytorch + Cursor前端代码生成
+以 Spring AI 开发框架实战为核心，涉及到多种主流 AI 客户端和工具库的运用。
 
 - Java 21 + Spring Boot 3 框架
 - ⭐️ Spring AI + LangChain4j
@@ -69,18 +50,18 @@ AquaSentience 是一款专为图像内容安全设计的智能系统，集成了
 - ⭐️ AI 大模型开发平台百炼
 - ⭐️ Cursor AI 代码生成
 - ⭐️ SSE 异步推送
+- ⭐️ Pytorch实现深度学习算法
 - 第三方接口：如 SearchAPI / Pexels API
-- Ollama 大模型部署
 - 工具库如：Kryo 高性能序列化 + Jsoup 网页抓取 + iText PDF 生成 + Knife4j 接口文档
 
 
-RAG 核心特性实战：
+RAG 核心特性：
 
-![RAG 核心特性实战](https://pic.yupi.icu/1/1745224085267-57afea3b-2de9-44a0-8f53-49e338c0e6b9.png)
+![RAG 核心特性](https://pic.yupi.icu/1/1745224085267-57afea3b-2de9-44a0-8f53-49e338c0e6b9.png)
 
 项目架构设计图：
 
-![AI 智能体架构图](https://pic.yupi.icu/1/AI%E6%99%BA%E8%83%BD%E4%BD%93%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
+![AquaSentience架构图](https://pic.yupi.icu/1/AI%E6%99%BA%E8%83%BD%E4%BD%93%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
 
 
