@@ -28,13 +28,6 @@ AquaSentience 是一款专为图像内容安全设计的智能系统，集成了
 
 
 
-RAG 核心特性及全链路调优：
-
-<img width="1874" height="1562" alt="image" src="https://github.com/user-attachments/assets/793ccad8-9e09-4668-82cc-3cff3274c7dc" />
-
-
-
-
 
 ## 技术栈
 基于 Spring Boot 3 +⁠ Spring AI + RAG + Tool Calling + M‌CP + Flask + Pytorch + Cursor前端代码生成
@@ -56,9 +49,6 @@ RAG 核心特性及全链路调优：
 - 工具库如：Kryo 高性能序列化 + Jsoup 网页抓取 + iText PDF 生成 + Knife4j 接口文档
 
 
-RAG 核心特性：
-
-![RAG 核心特性](https://pic.yupi.icu/1/1745224085267-57afea3b-2de9-44a0-8f53-49e338c0e6b9.png)
 
 项目架构设计图：
 
