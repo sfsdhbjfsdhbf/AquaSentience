@@ -61,7 +61,8 @@ RAG 核心特性：
 
 项目架构设计图：
 
-![AquaSentience架构图](https://pic.yupi.icu/1/AI%E6%99%BA%E8%83%BD%E4%BD%93%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
+<img width="640" height="733" alt="image" src="https://github.com/user-attachments/assets/feb11d5a-15f2-479e-8a12-707681a29b78" />
+
 
 
 
