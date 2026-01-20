@@ -53,6 +53,17 @@ AquaSentience 是一款专为图像内容安全设计的智能系统，集成了
 项目架构设计图：
 
 <img width="640" height="733" alt="image" src="https://github.com/user-attachments/assets/feb11d5a-15f2-479e-8a12-707681a29b78" />
+## 功能示例
+AI超级智能体
+<img width="1363" height="393" alt="image" src="https://github.com/user-attachments/assets/48668758-7df8-4264-8e23-50b9d7993734" />
+<img width="1534" height="839" alt="image" src="https://github.com/user-attachments/assets/fd877d33-d00a-4f8b-904d-7459e558b86b" />
+AI图像水印专家
+<img width="1514" height="639" alt="image" src="https://github.com/user-attachments/assets/a3a849e6-6bad-4856-ae58-a7ef35a53136" />
+
+局部内容保护
+<img width="1619" height="876" alt="image" src="https://github.com/user-attachments/assets/e16723f1-bee9-41c4-a841-22d4bc4d02ed" />
+整体内容保护
+<img width="1314" height="629" alt="image" src="https://github.com/user-attachments/assets/044113a6-090b-4971-b2f4-885b1997a9aa" />
 
 
 
