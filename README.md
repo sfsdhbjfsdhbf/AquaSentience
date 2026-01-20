@@ -1,8 +1,8 @@
-AquaSentience：智能图像盲水印保护系统
+#AquaSentience：智能图像盲水印保护系统
 
 AquaSentience 是一款专为图像内容安全设计的智能系统，集成了 RAG 检索、多轮对话记忆、工具调用 和 水印嵌入技术。系统主要分为四大模块，为用户提供全面的图像水印保护方案。
 
-📌 四大核心模块
+##📌 四大核心模块
 1. AI 图像水印专家
 
 基于多轮对话与 RAG 检索，为用户提供水印保护方案咨询。
@@ -28,9 +28,10 @@ AquaSentience 是一款专为图像内容安全设计的智能系统，集成了
 
 
 
-RAG 核心特性实战及全链路调优：
+RAG 核心特性及全链路调优：
 
-![](https://pic.yupi.icu/1/1746250760306-3b545556-59df-43a9-b843-b73ec9b5a867.png)
+<img width="1874" height="1562" alt="image" src="https://github.com/user-attachments/assets/793ccad8-9e09-4668-82cc-3cff3274c7dc" />
+
 
 
 
